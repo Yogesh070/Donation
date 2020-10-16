@@ -37,6 +37,8 @@ export default {
 }
 img {
   object-fit: contain;
+  max-height: 266px;
+  max-width: 400px;
 }
 h1 {
   color: #40454f;

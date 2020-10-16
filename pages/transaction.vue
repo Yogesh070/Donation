@@ -16,7 +16,12 @@
           </div>
 
           <div class="amount-box">
-            <input type="text" id="amount" v-model="amount" v-on="keypress" />
+            <input
+              type="text"
+              id="amount"
+              v-model="amount"
+              @keypress="isNumberKey(e)"
+            />
           </div>
         </div>
         <div class="globalGiving">

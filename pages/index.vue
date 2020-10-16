@@ -3,6 +3,8 @@
     <img src="../assets/logo.jpg" alt="logo" />
     <h1>Kishor Trust</h1>
     <NuxtLink to="/donate"><button>Dontate Now</button></NuxtLink>
+    <NuxtLink to="/NewDonation"><button>New Dontation</button></NuxtLink>
+    <NuxtLink to="/Condolence"><button>Condolence</button></NuxtLink>
   </div>
 </template>
 
@@ -42,6 +44,7 @@ button {
   outline: none;
   cursor: pointer;
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 button:hover {
   opacity: 0.8;
